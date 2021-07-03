@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Cart | Pinjamobi</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light navbar-rental
+        fixed-top
+        navbar-fixed-top
+      "
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a href="/index.html" class="navbar-brand">
+          <img src="/images/logo.svg" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="/cars.html" class="nav-link">Mobil</a>
+            </li>
+            <li class="nav-item">
+              <a href="/rentals.html" class="nav-link">Rental</a>
+            </li>
+            <li class="nav-item">
+              <a href="/faq.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="/register.html" class="nav-link">Daftar</a>
+            </li>
+            <li class="nav-item active">
+              <a
+                href="/login.html"
+                class="btn btn-info nav-link px-4 text-white"
+                >Masuk</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content page-cart">
+      <section
+        class="rental-breadcrumbs"
+        data-aos="fade-down"
+        data-aos-delay="100"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active">Cart</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rental-cart">
+        <div class="container">
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-12 table-responsive">
+              <table class="table table-borderless table-cart">
+                <thead>
+                  <tr>
+                    <td>Image</td>
+                    <td>Name &amp; Seller</td>
+                    <td>Price</td>
+                    <td>Menu</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 15%">
+                      <img
+                        src="/images/car1.jpg"
+                        alt=""
+                        class="cart-image w-100"
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="car-title">Honda Jazz</div>
+                      <div class="car-subtitle">by Kimi Rental</div>
+                    </td>
+                    <td style="width: 35%">
+                      <div class="car-title">Rp. 240.000</div>
+                      <div class="car-subtitle">Per Hari</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart"> Remove </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-12">
+              <hr />
+            </div>
+            <div class="col-12">
+              <h2 class="mb-4">Detail Pesanan</h2>
+            </div>
+          </div>
+          <div class="row mb-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="startDate">Tanggal Pinjam</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="startDate"
+                  value=""
+                ></input>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="endDate">Tanggal Kembali</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="endDate"
+                  value=""
+                ></input>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="driver">Supir</label>
+                <select name="driver" id="driver" class="form-control">
+                  <option value="Pakai">Iya</option>
+                  <option value="Tidak Pakai">Tidak</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="mobilePhone">No. HP</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="mobilePhone"
+                  value="082394238128"
+                ></input>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-right">
+              <a href="/success.html" class="btn btn-info px-5">Lanjut ke Pembayaran</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="pt-4 pb-2">
+              2021 Copyright Pinjamobil | Created by Fresa Mikhael
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/vendor/vue/vue.js"></script>
+    <script>
+      var gallery = new Vue({
+        el: "#gallery",
+        mounted() {
+          AOS.init();
+        },
+        data: {
+          activePhoto: 0,
+          photos: [
+            {
+              id: 1,
+              url: "/images/product-details-1.jpg",
+            },
+            {
+              id: 2,
+              url: "/images/product-details-2.jpg",
+            },
+            {
+              id: 3,
+              url: "/images/product-details-3.jpg",
+            },
+            {
+              id: 4,
+              url: "/images/product-details-4.jpg",
+            },
+          ],
+        },
+        methods: {
+          changeActive(id) {
+            this.activePhoto = id;
+          },
+        },
+      });
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
